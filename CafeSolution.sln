@@ -3,13 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30621.155
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cafe.Console", "Cafe.Console\Cafe.Console.csproj", "{EFCFF45F-E6E6-4DCC-911F-91270E24FBC7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cafe.Console", "Cafe.Console\Cafe.Console.csproj", "{EFCFF45F-E6E6-4DCC-911F-91270E24FBC7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cafe.Core", "Cafe.Core\Cafe.Core.csproj", "{E8344FD6-B457-4D38-8F89-FFA4BC6317FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cafe.Core", "Cafe.Core\Cafe.Core.csproj", "{E8344FD6-B457-4D38-8F89-FFA4BC6317FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cafe.Services", "Cafe.Services\Cafe.Services.csproj", "{A0A9721D-BC37-4E38-80D0-1F99555BFB17}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cafe.Services", "Cafe.Services\Cafe.Services.csproj", "{A0A9721D-BC37-4E38-80D0-1F99555BFB17}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cafe.Testing.NUnit", "Cafe.Testing.NUnit\Cafe.Testing.NUnit.csproj", "{05B95666-BF16-43BC-89D8-08146682F802}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cafe.Testing.NUnit", "Cafe.Testing.NUnit\Cafe.Testing.NUnit.csproj", "{05B95666-BF16-43BC-89D8-08146682F802}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WikiResources", "WikiResources", "{9FB6BF77-A81C-4F0A-8CC2-5823D9231D34}"
+	ProjectSection(SolutionItems) = preProject
+		Preview.bmp = Preview.bmp
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
