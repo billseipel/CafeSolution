@@ -28,9 +28,5 @@ namespace Cafe.Core.Domain.Menu
             set { menuItems = value; }
         }
         #endregion
-
-
-
-
     }
 }

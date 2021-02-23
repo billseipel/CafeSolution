@@ -7,7 +7,6 @@ namespace Cafe.Core.Domain.Order
     public class Order
     {
         #region fields
-        //private readonly decimal orderSubTotal;
         private ICollection<OrderItem> orderItems;
         private bool HasServiceCharge = false;
 
@@ -50,10 +49,10 @@ namespace Cafe.Core.Domain.Order
             {
                 if (oi.ItemOrdered.IsFood)
                 {
-                    this.HasServiceCharge = true;
+                    HasServiceCharge = true;
                 }
             }
-            return this.HasServiceCharge;
+            return HasServiceCharge;
         }
     }
 }

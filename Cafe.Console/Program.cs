@@ -25,8 +25,6 @@ namespace Cafe
             //create the new menu
             Menu menu = new Menu(menuitemList);
 
-
-
             //create new orderitems
             OrderItem oi1 = new OrderItem(cheeseSandwich, 2);
             OrderItem oi2 = new OrderItem(cola, 2);
@@ -49,11 +47,6 @@ namespace Cafe
             Console.WriteLine("You incurred a service charge of " + order.OrderServiceCharge);
             Console.WriteLine("You order total is $" + order.OrderTotal);
             Console.Read();
-
-
-
-
-
 
         }
     }
