@@ -11,7 +11,8 @@ namespace Cafe
         static void Main(string[] args)
         {
             //initialize new menu items
-            // Food
+            // Fake change to test branch security
+
             MenuItem cheeseSandwich = new MenuItem("Cheese Sandwich", 2.00M, true, false);
             MenuItem steakSandwich = new MenuItem("Steak Sandwich", 4.50M, true,true);
           
