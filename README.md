@@ -9,3 +9,5 @@ This is a simple .NET Core application which utilizes:
 
 To change the pricing of each item, see the Cafe.Console.Program.cs file to change any pricing passed into the application.
 
+![alt text](https://raw.githubusercontent.com/billseipel/CafeSolution/master/Preview.bmp)
+
